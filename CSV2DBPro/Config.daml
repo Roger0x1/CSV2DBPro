@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="CSV2DBPro.dll" defaultNamespace="CSV2DBPro" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{7a962cc6-a124-46dd-9d0e-f932d91b0ff1}" version="1.0" desktopVersion="2.6.24783">
+    <Name>CSV2DBPro</Name>
+    <Description>CSV2DBPro description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>Roger</Author>
+    <Company>Acme</Company>
+    <Date>8/20/2020 3:51:11 PM</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="CSV2DBPro_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="CSV2DBPro_Tab1" caption="New Tab">
+          <group refID="CSV2DBPro_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="CSV2DBPro_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="CSV2DBPro_CSV2Db" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="CSV2DBPro_CSV2Db" caption="CSV 2Db" className="CSV2Db" loadOnClick="true" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

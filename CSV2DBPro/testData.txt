@@ -1,0 +1,4 @@
+Date,Owner,PropAddress_Num,PropAddress_PreDir,PropAddress_StreetName,PropAddress_StreetType,PropAddress_PostDir,PropAddress_UnitType,PropAddress_UnitNum,PropAddress_City,PropAddress_State,PropAddress_Zip,Acres,YearBuilt,SalePrice
+8/30/2004,James Bond,100,West,Main,Street,,,,Savannah,GA,31401-2345,0.75,2004,210000
+9/1/2012,Sam Slade,401,,Park,Ave,SW,Carriage House,7,Pooler,GA,32401,1.2,1999,78000
+12/15/2014,Jennie Hopkins,333,North,Fox,Trace,,Apartment,3,Springfield,GA,31412,3,2010,2150000
